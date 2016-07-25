@@ -23,7 +23,7 @@
             <p>
             We&#39;re glad you&#39;re <span class="auto-style1">paying a visit</span> to <a href="http://www.PlanetWrox.com">www.PlanetWrox.com</a>, the coolest music community site on the Internet.</p>
             <p>
-            Feel free to have a look around; there are lots of interesting <strong>reviews and concert pictures</strong> to be found here.</p>
+            Feel free to have a <a href="Default.aspx">look around</a>; there are lots of interesting <strong>reviews and concert pictures</strong> to be found here.</p>
         </section>
         <aside id="Sidebar">Sidebar Goes Here</aside>
         <footer>Footer Goes Here</footer>
