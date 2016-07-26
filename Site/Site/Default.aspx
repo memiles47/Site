@@ -9,6 +9,10 @@
         .auto-style1 {
             color: #CC0000;
         }
+        .Introduction {
+            font-style: italic;
+            color: #003399;
+        }
     </style>
     <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
     <script src="Scripts/modernizr-2.8.3.js"></script>
@@ -19,8 +23,8 @@
         <header>Header Goes Here</header>
         <nav>Menu Goes Here</nav>
         <section id ="MainContent">
-            <h1>Hi there visitor and welcome to Planet Wrox</h1>
-            <p>
+            <h1 style="padding: 0; margin: 0 0 10px 0">Hi there visitor and welcome to Planet Wrox</h1>
+            <p class="Introduction">
             We&#39;re glad you&#39;re <span class="auto-style1">paying a visit</span> to <a href="http://www.PlanetWrox.com">www.PlanetWrox.com</a>, the coolest music community site on the Internet.</p>
             <p>
             Feel free to have a <a href="Default.aspx">look around</a>; there are lots of interesting <strong>reviews and concert pictures</strong> to be found here.</p>
