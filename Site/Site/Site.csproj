@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Demos\ControlsDemo.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Web.Debug.config">
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Demos\CodeBehind.aspx.designer.cs">
       <DependentUpon>CodeBehind.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.cs">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\ControlsDemo.aspx.designer.cs">
+      <DependentUpon>ControlsDemo.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demos\CssDemo.aspx.cs">
       <DependentUpon>CssDemo.aspx</DependentUpon>
