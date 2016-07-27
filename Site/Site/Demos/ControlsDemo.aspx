@@ -11,10 +11,10 @@
     <div>
     
         Your Name:
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:TextBox ID="txt_MichaelMiles" runat="server"></asp:TextBox>
+        <asp:Button ID="btn_Submit" runat="server" Text="Submit Information" OnClick="btn_Submit_Click" />
         <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lbl_Result" runat="server"></asp:Label>
     
     </div>
     </form>

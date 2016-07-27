@@ -13,5 +13,10 @@ namespace Site.Demos
         {
 
         }
+
+        protected void btn_Submit_Click(object sender, EventArgs e)
+        {
+            lbl_Result.Text = "Your name is: " + txt_MichaelMiles.Text;
+        }
     }
 }
