@@ -11,6 +11,8 @@
     <div>
     
         <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem Value="Item One"></asp:ListItem>
+            <asp:ListItem Value="Item Two"></asp:ListItem>
         </asp:DropDownList>
     
     </div>
