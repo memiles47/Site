@@ -11,8 +11,19 @@
     <div>
     
         <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>C#</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+            <asp:ListItem>Visual Basic</asp:ListItem>
         </asp:DropDownList>
-    
+        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+            <asp:ListItem>C#</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+            <asp:ListItem>Visual Basic</asp:ListItem>
+        </asp:CheckBoxList>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
     </div>
     </form>
 </body>
