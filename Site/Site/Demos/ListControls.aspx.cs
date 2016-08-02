@@ -13,5 +13,10 @@ namespace Site.Demos
         {
 
         }
+        //Code behind the button
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

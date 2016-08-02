@@ -20,7 +20,7 @@
             <asp:ListItem>CSS</asp:ListItem>
             <asp:ListItem>Visual Basic</asp:ListItem>
         </asp:CheckBoxList>
-        <asp:Button ID="Button1" runat="server" Text="Button" />
+        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         <br />
         <br />
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
