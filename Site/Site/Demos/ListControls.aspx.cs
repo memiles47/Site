@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace Site.Demos
@@ -16,7 +12,15 @@ namespace Site.Demos
         //Code behind the button
         protected void Button1_Click(object sender, EventArgs e)
         {
+            lbl_Output.Text = "In the DDL you selected " + ddl_LanguageSelect.SelectedValue + "<br />";
 
+            foreach(ListItem item in cbl_LanguageSelect.Items)
+            {
+                if (item.Selected)
+                {
+                    lbl_Output.Text += "In the CBL you selected " + item.Value + "<br />";
+                }
+            }
         }
     }
 }

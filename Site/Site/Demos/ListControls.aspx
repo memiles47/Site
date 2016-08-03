@@ -10,20 +10,20 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:DropDownList ID="ddl_LanguageSelect" runat="server">
             <asp:ListItem>C#</asp:ListItem>
             <asp:ListItem>CSS</asp:ListItem>
             <asp:ListItem>Visual Basic</asp:ListItem>
         </asp:DropDownList>
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+        <asp:CheckBoxList ID="cbl_LanguageSelect" runat="server">
             <asp:ListItem>C#</asp:ListItem>
             <asp:ListItem>CSS</asp:ListItem>
             <asp:ListItem>Visual Basic</asp:ListItem>
         </asp:CheckBoxList>
-        <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
+        <asp:Button ID="btn_Submit" runat="server" Text="Submit" OnClick="Button1_Click" />
         <br />
         <br />
-        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lbl_Output" runat="server" Text="Label"></asp:Label>
     </div>
     </form>
 </body>
