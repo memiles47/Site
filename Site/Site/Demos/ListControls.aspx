@@ -14,11 +14,13 @@
             <asp:ListItem>C#</asp:ListItem>
             <asp:ListItem>CSS</asp:ListItem>
             <asp:ListItem>Visual Basic</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
         </asp:DropDownList>
         <asp:CheckBoxList ID="cbl_LanguageSelect" runat="server">
             <asp:ListItem>C#</asp:ListItem>
             <asp:ListItem>CSS</asp:ListItem>
             <asp:ListItem>Visual Basic</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
         </asp:CheckBoxList>
         <asp:Button ID="btn_Submit" runat="server" Text="Submit" OnClick="Button1_Click" />
         <br />
