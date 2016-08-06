@@ -9,7 +9,6 @@ namespace Site.Demos
         {
 
         }
-        //Code behind the button
         protected void Button1_Click(object sender, EventArgs e)
         {
             lbl_Output.Text = "In the DDL you selected " + ddl_LanguageSelect.SelectedValue + "<br />";
