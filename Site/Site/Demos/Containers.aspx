@@ -11,7 +11,7 @@
     <div>
         <asp:CheckBox ID="cb_ShowPanel" runat="server" AutoPostBack="True" OnCheckedChanged="cb_ShowPanel_OnCheckedChanged"/>
         <asp:Panel ID="pnl_Panel1" runat="server" Visible="False">
-            <asp:Wizard ID="Wizard1" runat="server" Width="800px" ActiveStepIndex="0">
+            <asp:Wizard ID="Wizard1" runat="server" Width="850px" ActiveStepIndex="0">
                 <WizardSteps>
                     <asp:WizardStep runat="server" title="About You">
                         <asp:Label ID="lbl_YourName" runat="server" Text="Type your name "></asp:Label>
