@@ -69,6 +69,7 @@
     <Content Include="Demos\Containers.aspx" />
     <Content Include="Demos\ControlsDemo.aspx" />
     <Content Include="Demos\ListControls.aspx" />
+    <Content Include="Demos\State.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Frontend.Master" />
     <None Include="Web.Debug.config">
@@ -129,6 +130,13 @@
     </Compile>
     <Compile Include="Demos\ListControls.aspx.designer.cs">
       <DependentUpon>ListControls.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demos\State.aspx.cs">
+      <DependentUpon>State.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demos\State.aspx.designer.cs">
+      <DependentUpon>State.aspx</DependentUpon>
     </Compile>
     <Compile Include="Demos\TableDemo.aspx.cs">
       <DependentUpon>TableDemo.aspx</DependentUpon>
