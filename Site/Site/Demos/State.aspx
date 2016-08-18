@@ -22,7 +22,7 @@
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 </td>
                 <td>
-                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                    <asp:Button ID="btn_SetDate" runat="server" Text="Set Date" />
                 </td>
             </tr>
             <tr>
@@ -39,7 +39,7 @@
                     </asp:Calendar>
                 </td>
                 <td>
-                    <asp:Button ID="Button2" runat="server" Text="Button" />
+                    <asp:Button ID="btn_PlainPostBack" runat="server" Text="Plain Postback" />
                 </td>
             </tr>
             <tr>
