@@ -16,13 +16,13 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <table class="auto-style1">
+         <table class="auto-style1">
             <tr>
                 <td class="auto-style2">
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 </td>
                 <td>
-                    <asp:Button ID="btn_SetDate" runat="server" Text="Set Date" />
+                    <asp:Button ID="btn_SetDate" runat="server" Text="Set Date" OnClick="btn_SetDate_Click" />
                 </td>
             </tr>
             <tr>
