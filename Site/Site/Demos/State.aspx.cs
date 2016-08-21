@@ -18,5 +18,10 @@ namespace Site.Demos
         {
             Label1.Text = DateTime.Now.ToString();
         }
+
+        protected void btn_PlainPostBack_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
