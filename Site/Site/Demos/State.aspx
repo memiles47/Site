@@ -19,7 +19,7 @@
          <table class="auto-style1">
             <tr>
                 <td class="auto-style2">
-                    <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    <asp:Label ID="Label1" runat="server" Text="Label" EnableViewState="False"></asp:Label>
                 </td>
                 <td>
                     <asp:Button ID="btn_SetDate" runat="server" Text="Set Date" OnClick="btn_SetDate_Click" />
@@ -44,7 +44,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" EnableViewState="False"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
