@@ -39,7 +39,7 @@
                     </asp:Calendar>
                 </td>
                 <td>
-                    <asp:Button ID="btn_PlainPostBack" runat="server" Text="Plain Postback" />
+                    <asp:Button ID="btn_PlainPostBack" runat="server" Text="Plain Postback" OnClick="btn_PlainPostBack_Click" />
                 </td>
             </tr>
             <tr>
