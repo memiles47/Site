@@ -42,7 +42,7 @@
             </tr>
             <tr>
                 <td class="auto-style2">
-                    <asp:TextBox ID="TextBox1" runat="server" EnableViewState="False" BackColor="Black" ForeColor="Yellow"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" EnableViewState="False" BackColor="#3333FF" ForeColor="White"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
