@@ -49,6 +49,27 @@
         </table>
     <div>
     
+        <asp:ListBox ID="ListBox1" runat="server">
+            <asp:ListItem>C Sharp</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+            <asp:ListItem>VBA</asp:ListItem>
+        </asp:ListBox>
+        <br />
+        <br />
+        <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:ListItem>C Sharp</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
+        </asp:DropDownList>
+        <br />
+        <br />
+        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+            <asp:ListItem>C Sharp</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
+            <asp:ListItem>VBA</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+        </asp:RadioButtonList>
+    
     </div>
     </form>
 </body>
