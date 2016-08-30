@@ -70,6 +70,15 @@
             <asp:ListItem>CSS</asp:ListItem>
         </asp:RadioButtonList>
     
+        <br />
+        <br />
+        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+            <asp:ListItem>C Sharp</asp:ListItem>
+            <asp:ListItem>Python</asp:ListItem>
+            <asp:ListItem>VBA</asp:ListItem>
+            <asp:ListItem>CSS</asp:ListItem>
+        </asp:CheckBoxList>
+    
     </div>
     </form>
 </body>
