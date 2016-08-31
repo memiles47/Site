@@ -18,7 +18,7 @@
     <form id="form1" runat="server">
          <table class="auto-style1">
             <tr>
-                <td class="auto-style2">
+                <td class="auto-style2"> 
                     <asp:Label ID="Label1" runat="server" Text="Label" EnableViewState="False" ForeColor="Red"></asp:Label>
                 </td>
                 <td>
