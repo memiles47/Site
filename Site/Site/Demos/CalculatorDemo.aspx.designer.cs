@@ -40,13 +40,13 @@ namespace Site.Demos {
         protected global::System.Web.UI.WebControls.TextBox txt_ValueOne;
         
         /// <summary>
-        /// ddl_Operator control.
+        /// ddl_OperatorList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList ddl_Operator;
+        protected global::System.Web.UI.WebControls.DropDownList ddl_OperatorList;
         
         /// <summary>
         /// txt_ValueTwo control.
