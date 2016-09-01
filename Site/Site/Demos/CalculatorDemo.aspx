@@ -9,6 +9,12 @@
         .auto-style1 {
             width: 100%;
         }
+        .auto-style2 {
+            width: 1660px;
+        }
+        .auto-style3 {
+            width: 1289px;
+        }
     </style>
 </head>
 <body>
@@ -17,16 +23,30 @@
     
         <table class="auto-style1">
             <tr>
-                <td colspan="3">&nbsp;</td>
+                <td colspan="3">
+                    <asp:Label ID="lbl_ResultLable" runat="server" Text="[ResultLable]"></asp:Label>
+                </td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">
+                    <asp:TextBox ID="txt_ValueOne" runat="server"></asp:TextBox>
+                </td>
+                <td class="auto-style2">
+                    <asp:DropDownList ID="ddl_Operator" runat="server">
+                        <asp:ListItem>+</asp:ListItem>
+                        <asp:ListItem>-</asp:ListItem>
+                        <asp:ListItem>*</asp:ListItem>
+                        <asp:ListItem>/</asp:ListItem>
+                    </asp:DropDownList>
+                    <asp:TextBox ID="txt_ValueTwo" runat="server"></asp:TextBox>
+                </td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style3">&nbsp;</td>
+                <td class="auto-style2">
+                    <asp:Button ID="btn_Calculate" runat="server" Text="Calculate" />
+                </td>
                 <td>&nbsp;</td>
             </tr>
         </table>
