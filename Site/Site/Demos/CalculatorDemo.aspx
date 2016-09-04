@@ -32,7 +32,7 @@
                     <asp:TextBox ID="txt_ValueOne" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style2">
-                    <asp:DropDownList ID="ddl_OperatorList" runat="server">
+                    <asp:DropDownList ID="ddl_Operators" runat="server">
                         <asp:ListItem>+</asp:ListItem>
                         <asp:ListItem>-</asp:ListItem>
                         <asp:ListItem>*</asp:ListItem>
