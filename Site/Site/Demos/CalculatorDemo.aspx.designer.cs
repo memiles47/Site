@@ -31,13 +31,13 @@ namespace Site.Demos {
         protected global::System.Web.UI.WebControls.Label lbl_ResultLable;
         
         /// <summary>
-        /// txt_ValueOne control.
+        /// txt_Value1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ValueOne;
+        protected global::System.Web.UI.WebControls.TextBox txt_Value1;
         
         /// <summary>
         /// ddl_OperatorList control.
@@ -49,13 +49,13 @@ namespace Site.Demos {
         protected global::System.Web.UI.WebControls.DropDownList ddl_OperatorList;
         
         /// <summary>
-        /// txt_ValueTwo control.
+        /// txt_Value2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_ValueTwo;
+        protected global::System.Web.UI.WebControls.TextBox txt_Value2;
         
         /// <summary>
         /// btn_Calculate control.
