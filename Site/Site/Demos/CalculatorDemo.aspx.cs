@@ -35,7 +35,7 @@ namespace Site.Demos
                     break;
             }
 
-            lbl_ResultLable.Text = value2 == 0.0m ? "Divide by zero error!" : result.ToString();
+            lbl_ResultLable.Text = value2 == 0.0m && ddl_OperatorList.SelectedValue == "/"? "Divide by zero error!" : result.ToString();
         }
     }
 }
