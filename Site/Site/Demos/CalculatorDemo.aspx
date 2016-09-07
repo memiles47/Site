@@ -29,7 +29,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:TextBox ID="txt_Value1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txt_ValueOne" runat="server"></asp:TextBox>
                 </td>
                 <td class="auto-style2">
                     <asp:DropDownList ID="ddl_OperatorList" runat="server">
@@ -38,7 +38,7 @@
                         <asp:ListItem>*</asp:ListItem>
                         <asp:ListItem>/</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:TextBox ID="txt_Value2" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txt_ValueTwo" runat="server"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
             </tr>
