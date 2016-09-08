@@ -163,6 +163,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Code\" />
     <Folder Include="Controls\" />
   </ItemGroup>
   <PropertyGroup>
