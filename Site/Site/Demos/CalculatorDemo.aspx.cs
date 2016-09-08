@@ -13,6 +13,10 @@ namespace Site.Demos
         {
             if (txt_ValueOne.Text.Length == 0 || txt_ValueTwo.Text.Length == 0)
                 return;
+            /*
+             * Added temp variable for the additional checks for a valid entry
+             * into the value1 and value2 variables
+             */
 
             decimal temp;
             var result = 0.0m;
@@ -31,10 +35,12 @@ namespace Site.Demos
                     result = value1 * value2;
                     break;
                 case "/":
+                    //Added check for divide by zero
                     result = value2 == 0.0m ? 0 : value1/value2;
                     break;
             }
 
+            //Added 'Divide by zero' check enter same into Result text if required
             lbl_ResultLable.Text = result == 0.0m && ddl_OperatorList.SelectedValue == "/"? "Divide by zero error!" : result.ToString();
         }
     }
