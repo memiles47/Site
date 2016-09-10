@@ -97,6 +97,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Code\Calculator.cs" />
     <Compile Include="Demos\CalculatorDemo.aspx.cs">
       <DependentUpon>CalculatorDemo.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -163,7 +164,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Code\" />
     <Folder Include="Controls\" />
   </ItemGroup>
   <PropertyGroup>

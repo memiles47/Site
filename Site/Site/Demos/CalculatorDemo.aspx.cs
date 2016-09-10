@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Site.App_Code;
+using System;
 
 namespace Site.Demos
 {
@@ -11,6 +12,8 @@ namespace Site.Demos
 
         protected void btn_Calculate_Click(object sender, EventArgs e)
         {
+            var myCalculator = new Calculator();
+
             if (txt_ValueOne.Text.Length == 0 || txt_ValueTwo.Text.Length == 0)
                 return;
             /*
@@ -18,30 +21,30 @@ namespace Site.Demos
              * into the value1 and value2 variables
              */
 
-            decimal temp;
-            var result = 0.0m;
-            var value1 = decimal.TryParse(txt_ValueOne.Text, out temp) ? temp : 0;
-            var value2 = decimal.TryParse(txt_ValueTwo.Text, out temp) ? temp : 0;
+            double temp;
+            var result = 0.0;
+            var value1 = double.TryParse(txt_ValueOne.Text, out temp) ? temp : 0;
+            var value2 = double.TryParse(txt_ValueTwo.Text, out temp) ? temp : 0;
 
             switch (ddl_OperatorList.SelectedValue)
             {
                 case "+":
-                    result = value1 + value2;
+                    result = myCalculator.Add(value1, value2);
                     break;
                 case "-":
-                    result = value1 - value2;
+                    result = myCalculator.Subtract(value1, value2);
                     break;
                 case "*":
-                    result = value1 * value2;
+                    result = myCalculator.Multiply(value1, value2);
                     break;
                 case "/":
                     //Added check for divide by zero
-                    result = value2 == 0.0m ? 0 : value1/value2;
+                    result = myCalculator.Divide(value1, value2);
                     break;
             }
 
             //Added 'Divide by zero' check enter same into Result text if required
-            lbl_ResultLable.Text = result == 0.0m && ddl_OperatorList.SelectedValue == "/"? "Divide by zero error!" : result.ToString();
+            lbl_ResultLable.Text = result == 0.0 && ddl_OperatorList.SelectedValue == "/"? "Divide by zero error!" : result.ToString();
         }
     }
 }
