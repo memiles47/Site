@@ -19,6 +19,7 @@
 
         public double Divide(double a, double b)
         {
+            //Divide by zero check
             return b == 0.0 ? 0.0 : a/b;
         }
     }

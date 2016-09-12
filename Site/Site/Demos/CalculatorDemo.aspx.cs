@@ -38,7 +38,6 @@ namespace Site.Demos
                     result = myCalculator.Multiply(value1, value2);
                     break;
                 case "/":
-                    //Added check for divide by zero
                     result = myCalculator.Divide(value1, value2);
                     break;
             }
