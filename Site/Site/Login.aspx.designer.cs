@@ -11,7 +11,7 @@ namespace Site
 {
 
 
-    public partial class Default
+    public partial class Login
     {
     }
 }
