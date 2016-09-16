@@ -14,7 +14,6 @@ namespace Site.Demos
 
         }
 
-        //Check on the warning on 'ToString()
         protected void btn_SetDate_Click(object sender, EventArgs e)
         {
             Label1.Text = DateTime.Now.ToString();
