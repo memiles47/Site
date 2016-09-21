@@ -7,7 +7,6 @@ using System.Web.UI.WebControls;
 
 namespace Site.MasterPages
 {
-    //This would be the code behind page for the frontend master page of the website
     public partial class Frontend : System.Web.UI.MasterPage
     {
         protected void Page_Load(object sender, EventArgs e)
