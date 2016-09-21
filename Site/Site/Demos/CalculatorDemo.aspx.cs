@@ -42,6 +42,7 @@ namespace Site.Demos
                     break;
             }
 
+            //Added 'Divide by zero' statement for divide by zero errors
             lbl_ResultLable.Text = result == 0.0 && ddl_OperatorList.SelectedValue == "/"? "Divide by zero error!" : result.ToString();
         }
     }
