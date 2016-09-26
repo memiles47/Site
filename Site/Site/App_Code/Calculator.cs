@@ -1,4 +1,4 @@
-﻿namespace Site.App_Code
+﻿namespace Site
 {
     public class Calculator
     {

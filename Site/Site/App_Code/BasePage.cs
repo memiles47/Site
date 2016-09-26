@@ -11,18 +11,21 @@
 //    }
 //}
 
-public class BasePage : System.Web.UI.Page
+namespace Site.App_Code
 {
-    private void Page_PreRender(object sender, EventArgs e)
+    public class BasePage : System.Web.UI.Page
     {
-        if (string.IsNullOrEmpty(this.Title) || this.Title.Equals("Untitled Page", StringComparison.CurrentCultureIgnoreCase))
+        private void Page_PreRender(object sender, EventArgs e)
         {
-            throw new Exception("Page Title cannot be \"Untitled Page\" or an empty string.");
+            if (string.IsNullOrEmpty(this.Title) || this.Title.Equals("Untitled Page", StringComparison.CurrentCultureIgnoreCase))
+            {
+                throw new Exception("Page Title cannot be \"Untitled Page\" or an empty string.");
+            }
         }
-    }
 
-    public BasePage()
-    {
-        this.PreRender += Page_PreRender;
-    }
+        public BasePage()
+        {
+            this.PreRender += Page_PreRender;
+        }
+    } 
 }
