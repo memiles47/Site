@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Site.Demos
 {
-    public partial class Containers : System.Web.UI.Page
+    public partial class Containers : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

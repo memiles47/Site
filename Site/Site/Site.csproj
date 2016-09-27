@@ -92,6 +92,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Calculator.cs" />
+    <Compile Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

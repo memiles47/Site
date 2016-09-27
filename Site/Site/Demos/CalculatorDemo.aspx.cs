@@ -2,7 +2,7 @@
 
 namespace Site.Demos
 {
-    public partial class CalculatorDemo : System.Web.UI.Page
+    public partial class CalculatorDemo : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {

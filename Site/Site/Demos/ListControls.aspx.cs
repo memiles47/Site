@@ -3,7 +3,7 @@ using System.Web.UI.WebControls;
 
 namespace Site.Demos
 {
-    public partial class ListControls : System.Web.UI.Page
+    public partial class ListControls : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
         {
