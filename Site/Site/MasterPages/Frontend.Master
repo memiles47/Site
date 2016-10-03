@@ -7,7 +7,6 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <link href="../Styles/Styles.css" rel="stylesheet" type="text/css" />
     <script src="/Scripts/modernizr-2.8.3.js"></script>
 </head>
 <body>
