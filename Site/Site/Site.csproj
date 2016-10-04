@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\Darkgrey\DarkGrey.css" />
     <Content Include="Default.aspx" />
     <Content Include="Demos\CalculatorDemo.aspx" />
     <Content Include="Demos\Containers.aspx" />
@@ -88,7 +89,9 @@
     <Content Include="Demos\TableDemo.aspx" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="App_Themes\Monochrome\Monochrome.css" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\Calculator.cs" />
