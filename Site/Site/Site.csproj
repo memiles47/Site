@@ -178,6 +178,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Themes\Darkgrey\Images\" />
+    <Folder Include="App_Themes\Monochrome\Images\" />
     <Folder Include="Controls\" />
     <Folder Include="Styles\" />
   </ItemGroup>
