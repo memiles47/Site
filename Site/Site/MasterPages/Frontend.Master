@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
     <div id ="PageWrapper">
-        <header><a href="/">Header Goes Here</a></header>
+        <header><a href="/"></a></header>
         <nav>Menu Goes Here</nav>
         <section id="MainContent">
             <asp:ContentPlaceHolder runat="server" ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
