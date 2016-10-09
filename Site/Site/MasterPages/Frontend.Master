@@ -17,7 +17,7 @@
         <section id="MainContent">
             <asp:ContentPlaceHolder runat="server" ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
         </section>
-        <aside id="Sidebar">Select Your Theme<br/>
+        <aside id="Sidebar">Select a Theme<br/>
             <asp:DropDownList ID="ThemeList" runat="server"></asp:DropDownList></aside>
         <footer>Footer Goes Here</footer>
     </div>
