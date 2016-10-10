@@ -13,5 +13,16 @@ namespace Site.MasterPages
         {
 
         }
+
+        protected void ThemeList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var preferredTheme = new HttpCookie("PreferredTheme")
+            {
+                Expires = DateTime.Now.AddMonths(3),
+                Value = ThemeList.SelectedValue
+            };
+            Response.Cookies.Add(preferredTheme);
+            Response.Redirect(Request.Url.ToString());
+        }
     }
 }

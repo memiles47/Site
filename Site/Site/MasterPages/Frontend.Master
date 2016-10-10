@@ -18,7 +18,10 @@
             <asp:ContentPlaceHolder runat="server" ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
         </section>
         <aside id="Sidebar">Select a Theme<br/>
-            <asp:DropDownList ID="ThemeList" runat="server"></asp:DropDownList></aside>
+            <asp:DropDownList ID="ThemeList" runat="server" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged">
+                <asp:ListItem>Dark Grey</asp:ListItem>
+                <asp:ListItem>Monochrome</asp:ListItem>
+            </asp:DropDownList></aside>
         <footer>Footer Goes Here</footer>
     </div>
     </form>
