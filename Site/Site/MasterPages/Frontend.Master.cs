@@ -11,7 +11,26 @@ namespace Site.MasterPages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!Page.IsPostBack)
+            {
+                var selectedTheme = Page.Theme;
+                var preferredTheme = Request.Cookies.Get("PreferredTheme");
 
+                if (preferredTheme != null)
+                {
+                    selectedTheme = preferredTheme.Value;
+                }
+
+                if (!string.IsNullOrEmpty(selectedTheme))
+                {
+                    var item = ThemeList.Items.FindByValue(selectedTheme);
+
+                    if (item != null)
+                    {
+                        item.Selected = true;
+                    }
+                }
+            }
         }
 
         protected void ThemeList_SelectedIndexChanged(object sender, EventArgs e)
