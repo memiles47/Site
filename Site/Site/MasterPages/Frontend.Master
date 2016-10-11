@@ -18,7 +18,7 @@
             <asp:ContentPlaceHolder runat="server" ID="cpMainContent" runat="server"></asp:ContentPlaceHolder>
         </section>
         <aside id="Sidebar">Select a Theme<br/>
-            <asp:DropDownList ID="ThemeList" runat="server" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged">
+            <asp:DropDownList ID="ThemeList" runat="server" OnSelectedIndexChanged="ThemeList_SelectedIndexChanged" AutoPostBack="True">
                 <asp:ListItem>Dark Grey</asp:ListItem>
                 <asp:ListItem>Monochrome</asp:ListItem>
             </asp:DropDownList></aside>
