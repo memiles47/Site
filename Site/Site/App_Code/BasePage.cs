@@ -12,6 +12,7 @@ namespace Site
 {
     public class BasePage : System.Web.UI.Page
     {
+        //Results after Resharper recomendations
         private void Page_PreRender(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(Title) ||
@@ -23,6 +24,7 @@ namespace Site
 
         private void Page_PreInit(object sender, EventArgs e)
         {
+            //Resharper changed the if statment to eliminating nesting
             var preferredTheme = Request.Cookies.Get("PreferredTheme");
             if (preferredTheme == null) return;
             var folder = Server.MapPath("~/App_Themes/" + preferredTheme.Value);
