@@ -76,6 +76,7 @@
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Frontend.Master" />
+    <Content Include="App_Themes\Monochrome\Button.skin" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
