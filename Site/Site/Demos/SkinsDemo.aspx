@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Skins Demo" Language="C#" MasterPageFile="~/MasterPages/Frontend.Master" AutoEventWireup="true" CodeBehind="SkinsDemo.aspx.cs" Inherits="SkinsDemo" %>
+﻿<%@ Page Title="Skins Demo" Language="C#" MasterPageFile="~/MasterPages/Frontend.Master" AutoEventWireup="true" CodeBehind="SkinsDemo.aspx.cs" Inherits="Site.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cpMainContent" runat="server">
