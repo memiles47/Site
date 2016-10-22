@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Site.Demos
 {
-    //Getting a push
+    //Getting another push
     public partial class SkinsDemo : BasePage
     {
         protected void Page_Load(object sender, EventArgs e)
