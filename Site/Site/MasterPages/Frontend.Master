@@ -37,7 +37,6 @@
                 <asp:ListItem>Monochrome</asp:ListItem>
             </asp:DropDownList></aside>
         <footer>Footer Goes Here</footer>
-       <p>"Hello"</p>
     </div>
     </form>
 </body>
