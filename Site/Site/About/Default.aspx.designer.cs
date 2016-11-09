@@ -7,8 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-
-
-public partial class Default
-{
+namespace Site {
+    
+    
+    public partial class Default {
+    }
 }
